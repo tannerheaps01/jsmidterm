@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    //1
+    var helloWorld = 'hey there!';
+    //2
+    alert(helloWorld);
+    //3
+    console.log(helloWorld);
+    //4
+    var wordsArray = helloWorld.split(' ');
+    console.log(wordsArray);
+    //5
+    console.log(wordsArray[1]);
+    //6 still not done but close
+    // var splitIt = helloWorld.split('')
+    // console.log(splitIt);
+    // for (var i = 0; i < wordsArray.length; i++) {
+    //     console.log(splitIt.charAt(i));
+    // }
+    //7
+   var howManyLetters = helloWorld.split('')
+
+    console.log(howManyLetters.length-1);
+    //8
+    var fruitArray = ['apple', 'orange', 'banana', 'pear'];
+    //9
+    console.log(fruitArray[2]);
+    //10 this one stumped me
+    // for(var i = 0; i < fruitArray.length; i++){
+    // 	if()
+    // }
+    //11
+    var noOrange = fruitArray.splice(1,1);
+    console.log(noOrange);
+    console.log(fruitArray);
+    //12
+    fruitArray.splice(2, 0, 'orange');
+
+    console.log(fruitArray);
+
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+    //1
+    function add(number, othernumber) {
+        console.log(number + othernumber);
+    }
+    add(2, 2)
+    //2
+    function multiply(x, y, f) {
+        result = x * y;
+
+        f
+        console.log(f)
+    };
+    multiply(2, 2, function() {
+        alert(result);
+    })
+    //3
+    function concat(firststring, secondstring, callback) {
+        firststring + secondstring;
+        callback
+    }
+    concat('hello', 'world', function() {
+        log();
+    })
+
+    function log() {
+        console.log(firststring + secondstring)
+
+    }
+    //4
+    function carFactory(make, model, year, color) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.color = color;
+
+    }
+    new carFactory('tesla', 'roadster', 2018, 'red');
+
+    //5
+    function fooBar(number) {
+        if (number % 5 == 0 && number % 3 == 0) {
+            console.log('fooBar')
+        } else if (number % 5 == 0) {
+            console.log('bar');
+        } else if (number % 3 == 0) {
+            console.log('foo')
+        } else{
+            console.log(number)
+        }
+    }
+    fooBar(loop())
+    //6 
+    function loop(){
+    	for(var i = 0; i <= 100; i++ ){
+    		
+    	}
+    }
+   
+    </script>
+</body>
+
+</html>

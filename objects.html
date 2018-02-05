@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+   	//1 	
+    function people() {
+        person = {
+            firstName: 'firstName',
+            lastName: 'lastName',
+            email: 'email'
+        }
+        return person;
+
+    }
+    people();
+    console.log(person)
+    //2
+    function Person(firstName, lastName, email){
+    	this.firstName = firstName;
+    	this.lastName = lastName;
+    	this.email = email;
+    }
+    var person = new Person('bob', 'smith', 'bob_smith@hotmail.com')
+    </script>
+</body>
+
+</html>
